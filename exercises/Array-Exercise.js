@@ -25,19 +25,3 @@ const arr1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const arr2 = [5, 6, 7, 8, 9, 10, 11, 12, 1, 2];
 
 solve(arr1,arr2);
-
-  //use this code in exercise...
-  // const missingElMap = new Map();
-  // for (let index = 0; index < [].length; index++) {
-  //   const element = [][index];
-  //   if (!missingElMap.has(element)) {
-  //     missingElMap.set(element, 1);
-  //   }
-  // }
-  // if (['a', 'b', 'c'].length > 0) {
-  //   for (const element of filesRequired) {
-  //     if (missingElMap.has(element)) {
-  //       missingElMap.get();
-  //     }
-  //   }
-  // }
