@@ -9,6 +9,7 @@ function solve(arr1,arr2) {
         checkElementInsideMap(dictionary,element);
     }
     
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const couplesMap = new Map([...dictionary].filter(([key,value]) => value > 1));
     
     console.log(...couplesMap);
